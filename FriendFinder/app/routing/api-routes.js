@@ -1,5 +1,5 @@
 //Load data from friend array
- var friendArray = require('../app/data/friend.js');
+ var friendArray = require('../data/friend.js');
  
 //Routes
 
@@ -12,7 +12,7 @@ module.exports = function(app){
  //POST route /api/friend to handle incoming survey results and perform compatibility logic
  app.post('/api/friend', function(req,res){
 
- //Compare user with their best friend match
+//Compare user with their best friend match
 
 //Object to hold the best match friend
 		var bestMatch = {
