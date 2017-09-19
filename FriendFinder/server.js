@@ -13,8 +13,8 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
 //External files to handle routing
-require('./app/routing/api-routes.js')(app); 
-require('./app/routing/html-routes.js')(app);
+require('./FriendFinder/app/routing/api-routes.js')(app); 
+require('./FriendFinder/app/routing/html-routes.js')(app);
 
 // Start the server, begin listening
 app.listen(PORT, function () {

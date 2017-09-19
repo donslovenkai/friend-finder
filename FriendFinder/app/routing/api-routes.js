@@ -1,10 +1,10 @@
 //Load data from friend array
- var friendArray = require('../data/friend.js');
+ var friendArray = require('../app/data/friend.js');
  
 //Routes
 
 module.exports = function(app){
-  //GET route to /api/friends to display JSON of all possible friends
+  //GET route to /api/friend to display JSON of all possible friends
   app.get('/api/friend', function(req,res){
     res.json(friendArray);
   });

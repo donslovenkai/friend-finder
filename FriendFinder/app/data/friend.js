@@ -2,7 +2,7 @@
 var friendArray = [
   {
     name: 'Eddie Haskell',
-    profilePic: '<a href='https:github.com/donslovenkai/friend-finder/app/public/images/EddieHaskell.jpg</a>',
+    profilePic: '<a href='https:github.com/donslovenkai/friend-finder/FriendFinder/app/public/images/EddieHaskell.jpg</a>',
     scores: [
       "4",
       "5",

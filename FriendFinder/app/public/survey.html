@@ -145,7 +145,7 @@
         </div>
     </div>
     <div class='col s4'>
-      <p><a href='/api/friends'>API Friends List</a> | <a href='https://github.com/donslovenkai/friend-finder' target= '_blank'>GitHub Repo</a></p>
+      <p><a href='/api/friend'>API Friends List</a> | <a href='https://github.com/donslovenkai/friend-finder/FriendFinder' target= '_blank'>GitHub Repo</a></p>
     </div>
   </div>
 </body>
@@ -189,7 +189,7 @@
       };
       console.log(newFriend);
       var currentURL = window.location.origin;
-      $.post(currentURL + "/api/friends", newFriend,
+      $.post(currentURL + "/api/friend", newFriend,
       function(data){
           alert("Your profile was added. Wait while we find you a match!");
       });
