@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <!-- Materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <title>Friend Finder - Survey</title>
+</head>
+
+<body>
+  <div class='container'>
+    <div class='card-panel teal lighten-2 col s12 center-align'>
+      <h4><strong>Survey Questions</strong></h4>
+        <div class='card-panel left-align white'>
+          <h5><strong>About You</strong></h5>
+          <br>
+          <form action=" ">
+            <section class='input-field'>
+              <input id="name" type="text" class="validate" required>
+              <label class='active' for="name">Name (required)</label>
+            </section>
+            <section class='input-field'>
+              <input id="photo" type="text" class="validate" required>
+              <label class='active' for="name">Link to Photo Image (required)</label>
+            </section>
+
+            <h5><strong>Question 1</strong></h5>
+            <p>I see myself as a nice person.</p>
+            <select data-placeholder="" class="browser-default" id="q1" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h5><strong>Question 2</strong></h5>
+            <p>I see myself as better off staying single.</p>
+            <select data-placeholder="" class="browser-default" id="q2" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 3</strong></h5>
+            <p>I see myself as undependable and flakey.</p>
+            <select data-placeholder="" class="browser-default" id="q3" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 4</strong></h5>
+            <p>I see myself as fun and crazy.</p>
+            <select data-placeholder="" class="browser-default" id="q4" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 5</strong></h5>
+            <p>I see myself as open to new experiences.</p>
+            <select data-placeholder="" class="browser-default" id="q5" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 6</strong></h5>
+            <p>I see myself as loud and agressive.</p>
+            <select data-placeholder="" class="browser-default" id="q6" required>
+              <option value="" disabled selected>Choose an Option</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 7</strong></h5>
+            <p>I see myself as quiet and introverted.</p>
+            <select data-placeholder="" class="browser-default" id="q7" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 8</strong></h5>
+            <p>I see myself as someone special and deserving of a participation trophy.</p>
+            <select data-placeholder="" class="browser-default" id="q8" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 9</strong></h5>
+            <p>I see myself as emotionally unstable.</p>
+            <select data-placeholder="" class="browser-default" id="q9" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5><strong>Question 10</strong></h5>
+            <p>I see myself as balanced and normal.</p>
+            <select data-placeholder="" class="browser-default" id="q10" required>
+                <option value="" disabled selected>Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+              <a href='' class="waves-effect waves-light btn blue lighten-1" id="submitBtn">Submit</a>
+          </form>
+        </div>
+    </div>
+    <div class='col s4'>
+      <p><a href='/api/friends'>API Friends List</a> | <a href='https://github.com/donslovenkai/friend-finder' target= '_blank'>GitHub Repo</a></p>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- Get information and send  to server -->
+<script type="text/javascript">
+  $("#submitBtn").on("click", function(){
+    //Validate that all fields are are filled in
+    function validateForm(){
+      var isValid = true;
+      $('.validate').each(function(){
+        if($(this).val === ''){
+          isValid = false;
+        }
+      });
+      $('.browser-default').each(function(){
+        if($(this).val === ''){
+          isValid = false;
+        }
+      });
+      return isValid;
+    }
+    //Excute if all fields are filled in
+    if(validateForm() == true){
+      var newFriend = {
+      name: $('#name').val().trim(),
+      profilePic: $('#photo').val().trim(),
+      scores: [
+        $('#q1').val(),
+        $('#q2').val(),
+        $('#q3').val(),
+        $('#q4').val(),
+        $('#q5').val(),
+        $('#q6').val(),
+        $('#q7').val(),
+        $('#q8').val(),
+        $('#q9').val(),
+        $('#q10').val(),
+      ]
+      };
+      console.log(newFriend);
+      var currentURL = window.location.origin;
+      $.post(currentURL + "/api/friends", newFriend,
+      function(data){
+          alert("Your profile was added. Wait while we find you a match!");
+      });
+    } else{
+      alert("Please fill all fields before submitting.")
+    }
+    return false;
+  });
