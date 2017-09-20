@@ -1,8 +1,8 @@
-//Array to hold all friends who have taken the survey
+//Database of friends who took the survery with initial data
 var friendArray = [
   {
     name: 'Eddie Haskell',
-    profilePic: 'https:github.com/donslovenkai/friend-finder/FriendFinder/app/public/images/EddieHaskell.jpg',
+    profilePic: 'http://q.likesuccess.com/98/4870464-leave-it-to-beaver-eddie-haskell.jpg',
     scores: [
       "4",
       "5",

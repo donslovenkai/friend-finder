@@ -1,26 +1,19 @@
 {
-  "name": "FriendFinder",
+  "name": "Friend-finder",
   "version": "1.0.0",
-  "description": "Homework 13 - Node and Express Server",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.1",
-    "express": "^4.15.4",
-    "path": "^0.12.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/donslovenkai/friend-finder.git"
-  },
-  "bugs": {
-    "url": "https://github.com/donslovenkai/friend-finder/issues"
-  },
-  "homepage": "https://github.com/donslovenkai/friend-finder#readme"
+  "license": "ISC"
 }
